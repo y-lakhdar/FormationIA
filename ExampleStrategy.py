@@ -2,7 +2,7 @@ from RULEngine.Strategy.Strategy import Strategy
 
 class ExampleStrategy(Strategy):
     def __init__(self, field, referee, team, opponent_team, is_team_yellow=False):
-        Strategy.__init__(self, field, referee, team, opponent_team, is_team_yellow)
+        Strategy.__init__(self, field, referee, team, opponent_team)
 
     def on_start(self):
         pass
